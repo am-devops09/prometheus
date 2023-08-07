@@ -24,7 +24,8 @@
 ###### add repos
     helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
     helm repo update
-
+## chack values
+    helm show values prometheus-community/prometheus-mongodb-exporter
 ###### install chart
     helm install mongodb-exporter prometheus-community/prometheus-mongodb-exporter
 
